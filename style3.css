@@ -1,0 +1,252 @@
+span {
+    font-size: large;
+    margin-right: 20px;
+} 
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #555;
+}
+
+.circle:hover {
+    background-color: #e1306c;
+    color: #fff;
+}
+.social {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 90px;
+}
+
+hr{
+    clear: both;
+    margin-top: 20px;
+}
+
+h1{
+    margin-left: 90px;
+}
+
+.link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: larger;
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+}
+
+.link a.active{
+    color:rgb(255, 115, 0);
+}
+
+.cta1{
+    display: inline-flex;
+    align-items: center;
+    background-color:black;
+    padding: 10px 10px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+}
+
+.cta1:hover {
+  background-color: #f35525;
+  color: #fff;
+  text-decoration: none;
+}
+.cta1 .fa-calendar {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+/* Banner */
+.hello {
+    position: relative;
+}
+
+.hello img {
+    width: 100%;
+    display: block;
+}
+
+.hello1 {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    color: white;
+    text-align: center;
+}
+
+.hello1 .breadcrumb {
+    background-color: white;
+    font-size: 1rem;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+.hello1 h1 {
+    margin-left: 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+
+.contact-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.contact1 {
+    color: orangered;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.contact2 {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* Map */
+.map-embed {
+    width: 100%;
+    height: 380px;
+    border: 0;
+    border-radius: 12px;
+}
+
+/* Form card */
+.contact-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-card label {
+    font-weight: 600;
+    margin: 10px 0 6px;
+    display: block;
+}
+
+.contact-card .form-control {
+    margin-bottom: 15px;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.contact-card .btn-send {
+    margin-top: auto;
+    background: orangered;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-card .btn-send:hover {
+    background: #e14a30;
+}
+
+/* Contact info boxes */
+.contact-info-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info-box img {
+    width: 40px;
+}
+
+.contact-info-box h6 {
+    margin: 0;
+    font-weight: 700;
+}
+
+.contact-info-box small {
+    color: #666;
+}
+
+/* Footer */
+.foo {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 80px;
+    align-content: center;
+    margin-top: 50px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    h1 {
+        margin-left: 20px;
+    }
+    .social {
+        float: none;
+        margin-right: 0;
+        justify-content: center;
+    }
+    .hello1 {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        font-size: medium;
+    }
+    .hello1 h1 {
+        font-size: 2rem;
+    }
+    .contact2 {
+        font-size: 28px;
+    }
+}

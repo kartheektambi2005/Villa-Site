@@ -1,0 +1,300 @@
+span {
+    font-size: large;
+    margin-right: 20px;
+} 
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #555;
+}
+
+.circle:hover {
+    background-color: #e1306c;
+    color: #fff;
+}
+.social {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 90px;
+}
+
+hr{
+    clear: both;
+    margin-top: 20px;
+}
+
+h1{
+    margin-left: 90px;
+}
+
+.home{
+    padding: 20px;
+    margin: 10px;
+}
+
+.link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: larger;
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+}
+
+.link a.active{
+    color: rgb(255, 115, 0);
+}
+.banner{
+position:relative;
+}
+
+.banner img{
+width:100%;
+height:auto;
+}
+
+.text{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+color:white;
+}
+
+.ho{
+padding:10px 20px;
+border:none;
+background:white;
+color:black;
+margin-bottom:15px;
+}
+.cta1{
+    display: inline-flex;
+    align-items: center;
+    background-color:black;
+    padding: 10px 10px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+}
+
+.cta1:hover {
+  background-color: #f35525;
+  color: #fff;
+  text-decoration: none;
+}
+.cta1 .fa-calendar {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.hello{
+    position: relative;
+    margin-top: 20px;
+}
+
+.hello img{
+    width: 100%;
+    display: block;
+}
+
+.hello1{
+    position: absolute; 
+    top: 40%;
+    left: 32%;
+    color: white;
+    font-size: x-large;
+}
+button{
+    margin-left: 160px;
+    padding: 8px;
+}
+
+.show{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.act{
+    padding: 10px;
+}
+
+.A{
+    padding: 10px;
+}
+
+.show a{
+    text-decoration: none;
+    color: white;
+}
+
+.show a:hover{
+    color: orange;
+}
+
+.act{
+    background-color:orange;
+    color: white;
+    border-radius: 5px;
+    justify-content:space-between;
+    border: 2px solid orange;
+}
+
+.A{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    justify-content:space-between;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 30px;
+    margin: 30px 0;
+}
+
+.card{
+    border: 2px solid whitesmoke;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card img{
+    width: 100%;
+    max-height: 250px;
+    object-fit: contain;
+}
+
+.lu{
+    background-color:#ffe5db;
+    border: 0px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.top-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.info-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+.info-item:last-child {
+  border-bottom: none;
+}
+.info-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.info-sub {
+  color: #666;
+  font-size: 0.9rem;
+}
+.price{
+    color: darkorange;
+}
+
+.bo{
+    background-color: black;
+    color: white;
+    margin: 6px;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.card button:hover{
+    background-color: orange;
+    color: white;
+    border: 2px solid orange;
+}
+
+.foot{
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+    margin-left: 530px;
+}
+
+.cir{
+    width: 40px;
+    height: 40px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #555;
+}
+
+.cir1{
+    width: 40px;
+    height: 40px;
+    background-color:rgb(255, 115, 0);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:white;
+}
+
+.cir:hover {
+    background-color:rgb(255, 115, 0);
+    color: #fff;
+}
+
+.foo{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 80px;
+    align-content: center;
+    margin-top: 50px;
+}

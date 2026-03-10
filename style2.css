@@ -1,0 +1,183 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, sans-serif;
+}
+
+
+/* TOP BAR */
+
+.top{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:#f5f5f5;
+padding:10px 80px;
+z-index:1000;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.top-left{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.top span{
+font-size:16px;
+}
+
+
+/* SOCIAL ICONS */
+
+.social{
+display:flex;
+gap:10px;
+}
+
+.circle{
+width:35px;
+height:35px;
+background:#ddd;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+color:#555;
+}
+
+.circle:hover{
+background:#f35525;
+color:white;
+}
+
+
+/* NAVBAR */
+
+.link{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:white;
+position:sticky;
+top:50px;
+z-index:999;
+}
+
+ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+.link a{
+text-decoration:none;
+color:black;
+}
+
+.link a.active{
+color:#f35525;
+}
+.link ul li a:hover{
+color:#f35525;
+}
+
+.visit{
+background:black;
+color:white;
+padding:10px 20px;
+border:none;
+border-radius:20px;
+}
+
+.banner{
+position:relative;
+}
+
+.banner img{
+width: 100%;
+height:300px;
+object-fit:cover;
+margin-top: 20px;
+margin-left: 10px;
+
+}
+
+.text{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+color:white;
+text-align:center;
+}
+
+.show{
+text-align:center;
+margin:40px;
+}
+
+.show button{
+padding:10px 20px;
+margin:5px;
+border:none;
+background:black;
+color:white;
+}
+
+.show .active{
+background:orange;
+}
+
+.product{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+padding:50px 80px;
+}
+
+.card{
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+padding:15px;
+border-radius:10px;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.type{
+background:#eee;
+display:inline-block;
+padding:5px 10px;
+margin-top:10px;
+}
+
+.card button{
+margin-top:10px;
+padding:10px;
+background:black;
+color:white;
+border:none;
+width:100%;
+}
+
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+width: 1550px;
+}
